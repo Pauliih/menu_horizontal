@@ -1,0 +1,31 @@
+body{
+	font-family: 'Indie Flower', cursive;
+}
+
+ul{
+	/*outline: 1px solid orange; /*encerrar con una linea la lista*/
+	list-style: none; /*saca las viñetas de la lista */
+	margin: 0;
+	padding: 0;
+	line-height: 40px;
+	background-color: #2e2e2a;
+}
+
+li{
+	/*background-color: #E8E8E8;*/
+	width: 100px;
+	display: inline-block;
+	text-align: center;
+}
+
+a{
+	display:block; /*ocupa el espacio de su etiqueta padre*/
+	text-decoration: none;/*sacar la linea del link*/
+	color: white;
+	padding-left: 12px;
+}
+
+a:hover{
+	background-color: orange;
+	color:black;
+}
